@@ -113,7 +113,7 @@ a <- p + transition_states(data,
                            state_length = 1,
                            wrap = F) +
   view_follow(fixed_x = T) +
-  labs(title = 'Rank de vacinação contra a COVID-19 \n por estado brasileiro: {closest_state}',
+  labs(title = 'Rank de vacinaÃ§Ã£o contra a COVID-19 \n por estado brasileiro: {closest_state}',
          caption = 'Fonte Brasil.io | Realizado por Fellipe Porto')
 
 a
@@ -124,9 +124,7 @@ animate(a, 100, fps = 10,                              # melhor
         width = 1300, height = 1000,
         renderer = gifski_renderer('vacina.gif'))
 
-animate(a, 100, fps = 10,                              # melhor
-        width = 1300, height = 1000,
-        renderer = gifski_renderer('gif.gif'))
+
 
 
 
